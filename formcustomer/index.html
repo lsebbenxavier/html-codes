@@ -28,7 +28,7 @@
             <fieldset class="grupo">
                 <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
                 <div class="campo">
-                    <label for="name"><strong>Name/strong></label>
+                    <label for="name"><strong>Name</strong></label>
                     <input type="text" name="name" id="name" required>
                 </div>
 
@@ -41,7 +41,7 @@
 
             <!-- Campo de email com-->
             <div class="campo">
-                <label for="email"><strong>Email</strong></label>
+                <label for="email"><strong>E-mail</strong></label>
                 <input type="email" name="email" id="email" required>
             </div>
 
@@ -49,57 +49,57 @@
             <div class="campo">
                 <label><strong>What is your customer profile</strong></label>
                 <label>
-                    <input type="radio" name="newcustomer" value="" checked>Front-end
+                    <input type="radio" name="customer" value="new" checked>New
                 </label>
                 <label>
-                    <input type="radio" name="devweb" value="backend">Back-end
+                    <input type="radio" name="customer" value="Registred">Registred
                 </label>
                 <label>
-                    <input type="radio" name="devweb" value="fullstack">Fullstack
+                    <input type="radio" name="customer" value="analysing">Analysing
                 </label>
             </div>
 
             <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
             <div class="campo">
-                <label for="senioridade"><strong>Senioridade</strong></label>
-                <select id="senioridade" required>
-                  <option selected disabled value="">Selecione</option>
-                  <option>Júnior</option>
-                  <option>Pleno</option>
-                  <option>Sênior</option>
+                <label for="planoption"><strong>Plan Option:</strong></label>
+                <select id="planoption" required>
+                  <option selected disabled value="">Selected</option>
+                  <option>Basic</option>
+                  <option>Intermediare</option>
+                  <option>Master</option>
                 </select>
             </div>
 
             <fieldset class="grupo">
-                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <!-- Campo de período do plano de 1 opção para marcar (checkbox) e css de classe "campo" -->
                 <div id="check">
-                    <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
-                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
-                    <label for="tecnologia1"> HTML</label>
-                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
-                    <label for="tecnologia2"> CSS</label>
-                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
-                    <label for="tecnologia3"> JavaScript</label>
-                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
-                    <label for="tecnologia4"> PHP</label>
-                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
-                    <label for="tecnologia5"> C#</label>
-                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
-                    <label for="tecnologia6"> Python</label>
-                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
-                    <label for="tecnologia7"> Java</label>
+                    <label><strong>Selected time the plan:</strong></label><br><br>
+                    <input type="checkbox" id="plantime" name="plantime" value="6 months">
+                    <label for="plantime"> 6 MONTHS</label>
+                    <input type="checkbox" id="plantime2" name="plantime2" value="1 year">
+                    <label for="plantime2"> 1 YEAR</label>
+                    <input type="checkbox" id="plantime3" name="plantime3" value="2 years">
+                    <label for="plantime3"> 2 YEARS</label>
+                    <input type="checkbox" id="plantime4" name="plantime4" value="3 years">
+                    <label for="plantime4"> 3 YEARS</label>
+                    <input type="checkbox" id="plantime5" name="plantime5" value="5 years">
+                    <label for="plantime5"> 5 YEARS</label>
+                    <input type="checkbox"0 id="plantype6" name="plantime6" value="10 years">
+                    <label for="plantime6"> 10 YEARS</label>
+                    <input type="checkbox" id="plantime7" name="plantime7" value="20 years">
+                    <label for="plantime7"> 20 YEARS</label>
                 </div>
             </fieldset>
 
             <!-- Caixa de texto -->
             <div class="campo">
                 <br>
-                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
-                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                <label for="experience"><strong></strong>Comments: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experience" name="experience"></textarea>
             </div>
 
             <!-- Botão para enviar o formulário -->
-            <button class="botao" type="submit" onsubmit="">Concluído</button>            
+            <button class="botao" type="submit" onsubmit="">Concluded</button>            
 
         </form>
 
