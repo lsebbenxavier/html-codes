@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+
+    <head>      
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            
+        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+        
+        <title>register</title>
+    </head>
+    
+    <body>         
+        <div>
+            <h1 id="titulo">Register Customers</h1>
+            <p id="subtitulo">Complete your information</p>
+            <br>
+        </div>
+        
+        <form>
+            <fieldset class="grupo">
+                
+                <div class="campo">
+                    <label for="name"><strong>Name</strong></label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+               
+                <div class="campo">
+                    <label for="surname"><strong>Surname</strong></label>
+                    <input type="text" name="surname" id="surname" required>
+                </div>
+            </fieldset>
+           
+            <div class="campo">
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            
+            <div class="campo">
+                <label><strong>What is your customer profile</strong></label>
+                <label>
+                    <input type="radio" name="customer" value="New" checked>New
+                </label>
+                <label>
+                    <input type="radio" name="customer" value="Registred">Registred
+                </label>
+                <label>
+                    <input type="radio" name="customer" value="Analysing">Analysing
+                </label>
+            </div>
+            
+            <div class="campo">
+                <label for="planoption"><strong>Plan Option:</strong></label>
+                <select id="planoption" required>
+                  <option selected disabled value="">Selected</option>
+                  <option>Basic</option>
+                  <option>Intermediare</option>
+                  <option>Master</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                
+                <div id="check">
+                    <label><strong>Selected time the plan:</strong></label><br><br>
+                    <input type="checkbox" id="plantime" name="plantime" value="6 months">
+                    <label for="plantime"> 6 MONTHS</label>
+                    <input type="checkbox" id="plantime2" name="plantime2" value="1 year">
+                    <label for="plantime2"> 1 YEAR</label>
+                    <input type="checkbox" id="plantime3" name="plantime3" value="2 years">
+                    <label for="plantime3"> 2 YEARS</label>
+                    <input type="checkbox" id="plantime4" name="plantime4" value="3 years">
+                    <label for="plantime4"> 3 YEARS</label>
+                    <input type="checkbox" id="plantime5" name="plantime5" value="5 years">
+                    <label for="plantime5"> 5 YEARS</label>
+                    <input type="checkbox"0 id="plantype6" name="plantime6" value="10 years">
+                    <label for="plantime6"> 10 YEARS</label>
+                    <input type="checkbox" id="plantime7" name="plantime7" value="20 years">
+                    <label for="plantime7"> 20 YEARS</label>
+                </div>
+            </fieldset>
+            
+            <div class="campo">
+                <br>
+                <label for="experience"><strong></strong>Comments: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experience" name="experience"></textarea>
+            </div>
+            
+            <button class="botao" type="submit" onsubmit="">Concluded</button>            
+
+        </form>
+
+    </body>
+
+</html>
+
+
