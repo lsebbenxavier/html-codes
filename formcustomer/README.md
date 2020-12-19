@@ -25,20 +25,20 @@ Form Customer
  - Button to submit the form ->
  
  #addcss
- - All elements of the page * /
- - Elements with the ID "title" * /
- - Elements with the ID "subtitle" * /
- - <fieldset> tag elements * /
- - <body> tag element * /
- - Elements for <body>, <input>, <Select>, <textarea> and <button> tags * /
- - Elements of class "group" in the states of the pseudoclasses before "and" after "* /
- - Elements of class "group" in the state of the "after" pseudo-class * /
- - Class elements "field" * /
- - Class elements "field" from <label> tag * /
- - Class elements "field" or "group" from <fieldset> tag * /
- -  Class elements "field" of <input> tags with text and email attribute, <select> tag and <textarea> tag * /
- - <select> and <option> tag "field" class elements * /
- -  Class element "field" with tag <input>, <select> and <textarea> burrows with status of pseudo-class "focus" * /
- -  Class element "button" * /
- -  Class element "button" with the status of the pseudo-class "hover" * /
- - Button and <select> tag elements * /
+ - All elements of the page -> 
+ - Elements with the ID "title" -> 
+ - Elements with the ID "subtitle" ->
+ - <fieldset> tag elements ->
+ - <body> tag element ->
+ - Elements for <body>, <input>, <Select>, <textarea> and <button> tags ->
+ - Elements of class "group" in the states of the pseudoclasses before "and" after " ->
+ - Elements of class "group" in the state of the "after" pseudo-class ->
+ - Class elements "field" -> 
+ - Class elements "field" from <label> tag -> 
+ - Class elements "field" or "group" from <fieldset> tag -> 
+ -  Class elements "field" of <input> tags with text and email attribute, <select> tag and <textarea> tag ->
+ - <select> and <option> tag "field" class elements ->
+ -  Class element "field" with tag <input>, <select> and <textarea> burrows with status of pseudo-class "focus" -> 
+ -  Class element "button" ->
+ -  Class element "button" with the status of the pseudo-class "hover" ->
+ - Button and <select> tag elements ->
