@@ -40,7 +40,7 @@ fieldset.group .field {
     float:  left;
     margin-right: 1em;
 }
-input, select, textarea, button {
+button {
     font-family: sans-serif;
     font-size: 1em;
     color: #59429d;
