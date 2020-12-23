@@ -72,3 +72,9 @@ fieldset.group .field {
     color: #59429d;
     display: block;
 }
+.logo {
+display: center;
+margin-left: 10%;
+margin-right: 10%;
+width: 5%;
+}
