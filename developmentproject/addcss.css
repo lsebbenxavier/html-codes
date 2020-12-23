@@ -8,7 +8,7 @@
     margin-left: 7%;
 } 
 #caption {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #380B61;
     margin-left: 10%;
 } 
@@ -18,23 +18,20 @@
   margin-right: 10%;
   width: 75%;
 }
-fieldset {
-    border: 50px;
-}
 body{
     background-color: #F0F8FF;
-    font-family: sans-serif;
+    font-family: "Times New Roman, Times, serif";
     font-size: 1em;
     color: #59429d;
-    margin-left: 36%;
-    margin-top: 2%;
-    justify-content: center;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%  
 }
 button {
     font-family: sans-serif;
     font-size: 2em;
     color: #59429d;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .button, select{
     cursor: pointer;
