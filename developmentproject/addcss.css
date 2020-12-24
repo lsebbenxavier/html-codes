@@ -8,12 +8,13 @@
     margin-left: center;
 } 
 #caption {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, serif;
     color: #19610b;
     margin-left: center;
 } 
 .image {
   display: center;
+  margin-top: 4%;
   margin-left: 10%;
   margin-right: 10%;
   width: 25%;
@@ -22,7 +23,7 @@ body{
     background-color: #ffffff;
     font-family: "Times New Roman, Times, serif";
     font-size: 1em;
-    color: #59429d;
+    color: #000000;
     margin-top: 4%;
     margin-left: 20%;
     margin-right: 20%  
@@ -30,7 +31,7 @@ body{
 button {
     font-family: sans-serif;
     font-size: 2em;
-    color: #59429d;
+    color: #000000;
     border-radius: 10px;
 }
 .button, select{
@@ -41,7 +42,7 @@ fieldset.group .field {
     margin-right: 1em;
 }
 .field {
-    width: 800px;
+    width: 700px;
     padding: 10px;
     border: 10px solid rgb(15, 128, 0);
     margin: 10px;
@@ -68,8 +69,8 @@ fieldset.group .field {
     margin-bottom: 1em;
 }
 .group label {
-    margin-bottom: 0.2em;
-    color: #59429d;
+    margin-bottom: 1em;
+    color: #000000;
     display: block;
 }
 .logo {
