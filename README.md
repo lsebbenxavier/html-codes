@@ -26,7 +26,7 @@ The matching rules for CSS are called selectors, a style definition can be match
 - The element with the id: #id_of_element {style definition; }
 - Group wedding: element_name_01, element_name_02, .class_name {style definition; }
 
-#vercel
+# vercel
 
 - Introduction to Vercel
 
