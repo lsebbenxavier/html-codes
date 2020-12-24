@@ -2,19 +2,14 @@ Form Customer
  #indexhtml
  - Metadata ->
  document information 
-
  - CSS ->
  add style to a web document
-
  - Page title (appears on the tab) ->
- register 
-
+register 
  - Header with title and subtitle (both with css of id "title") ->
  register customer 
-
  - Top of form ->
  objective of the form is: data collection and registration information
-
  - Name field with caption "name" and class css "field" ->
  - Last name field with caption "last name" and class css "field" -> 
  - Email field with ->
