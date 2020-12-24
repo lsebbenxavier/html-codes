@@ -25,3 +25,9 @@ The matching rules for CSS are called selectors, a style definition can be match
 - All elements with the class: .class_name {style definition;}
 - The element with the id: #id_of_element {style definition; }
 - Group wedding: element_name_01, element_name_02, .class_name {style definition; }
+
+#vercel
+
+- Introduction to Vercel
+
+​Vercel is a cloud platform for static sites and Serverless Functions that fits perfectly with your workflow. It enables developers to host Jamstack websites and web services that deploy instantly, scale automatically, and requires no supervision, all with no configuration.
