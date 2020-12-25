@@ -12,13 +12,10 @@
     color: #19610b;
     margin-left: center;
 } 
-.image {
-  display: center;
-  margin-top: 4%;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 25%;
-}
+.box {
+    width: 100px;
+    display: inline-block;
+}    
 body{
     background-color: #ffffff;
     font-family: "Times New Roman, Times, serif";
