@@ -39,3 +39,9 @@ Hypertext Preprocessor
 PHP is a popular general-purpose scripting language that is especially suited to web development.
 
 Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
+
+# hyperlink
+
+They allow us to link our documents to any other document (or other resource) we want. We can also link to specific parts of documents and we can make applications available at a simple web address.
+
+Any web content can be converted into a link, so that when clicked (or otherwise activated) it will cause the browser to go to another address (URL).
