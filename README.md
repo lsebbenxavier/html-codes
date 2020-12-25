@@ -45,3 +45,13 @@ Fast, flexible and pragmatic, PHP powers everything from your blog to the most p
 They allow us to link our documents to any other document (or other resource) we want. We can also link to specific parts of documents and we can make applications available at a simple web address.
 
 Any web content can be converted into a link, so that when clicked (or otherwise activated) it will cause the browser to go to another address (URL).
+
+# Hack
+
+HipHop Virtual Machine (HHVM)
+
+Created by Facebook. The language is open source software under the BSD license.
+
+Hack allows programmers to use static typing and dynamic typing. This type system is called gradual typing, which is also implemented in other languages like ActionScript.
+
+Hack's type system allows types to be specified for function arguments, function return values, and class properties; however, types of local variables cannot be defined.
