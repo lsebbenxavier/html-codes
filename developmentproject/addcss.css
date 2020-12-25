@@ -13,9 +13,16 @@
     margin-left: center;
 } 
 .box {
-    width: 100px;
+    width: 150px;
     display: inline-block;
 }    
+.box1 {
+    width: 200px;
+    display: inline-block;
+}
+.img {
+    border-radius: 80%;
+}
 body{
     background-color: #ffffff;
     font-family: "Times New Roman, Times, serif";
