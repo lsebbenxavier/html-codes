@@ -1,16 +1,16 @@
 <!-- Layout -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="form.html">
  
- <?php
+<?php
   
  /* Valores recebidos do formulário  */
-  $nome = $_POST['nome'];
+ $nome = $_POST['nome'];
  $replyto = $_POST['replyto']; // Email que será respondido
  $mensagem_form = $_POST['mensagem'];
  $assunto = $_POST['assunto'];
   
  /* Destinatário e remetente - EDITAR SOMENTE ESTE BLOCO DO CÓDIGO */
- $to = "lucasxavier.consultor@gmail.com";
+ $to = "";
  $remetente = "contato@xdesignagencybr.com"; // Deve ser um email válido do domínio
   
  /* Cabeçalho da mensagem  */
