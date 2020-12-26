@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Formulário PHP com anexo</title>
+        <title>Formulário PHP</title>
  
         <!-- Layout -->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="#">
  
         <!-- JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="#"></script>
     </head>
  
     <body>
@@ -21,7 +21,7 @@
         <fieldset>
  
         <!-- Título do formulário -->
-        <legend>Formulário PHP com envio de anexo</legend>
+        <legend>Formulário PHP</legend>
  
         <!-- Campo: Nome -->
         <div class="form-group">
@@ -47,15 +47,6 @@
         </div>
         </div>
  
-        <!-- Campo: anexo --> 
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="arquivo">Anexo</label>
-        <div class="col-md-4">
-            <input id="arquivo" name="arquivo" class="input-file" type="file">
-            <span class="help-block">2MB por mensagem</span>
-        </div>
-        </div> 
- 
         <!-- Campo: Mensagem -->
         <div class="form-group">
             <label class="col-md-4 control-label" for="mensagem">Mensagem</label>
@@ -72,10 +63,8 @@
             <button type="submit" class="btn btn-inverse">Enviar</button>
         </div>
         </div>
- 
         </fieldset>
         </form>
- 
-         </div>
+        </div>
     </body>
 </html>
