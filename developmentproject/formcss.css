@@ -34,28 +34,22 @@ body{
     float:  left;
     margin-right: 1em;
 }
-.field {
-    width: 700px;
-    padding: 10px;
-    border: 10px solid rgb(15, 128, 0);
-    margin: 10px;
-}
-form-group input[type="text"], .group input[type="email"], .group select, .campo textarea {
+.form-group input[type="text"], .group input[type="email"], .group input[type="mensagem"], .group select, .campo textarea {
     padding: 0.2em;
     border: 1px solid #429a9d;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
 }
-form-group select option {
+.form-group select option {
     padding-right: 1em;
 }
-form-group input:focus, .group select:focus, .group textarea:focus {
+.form-group input:focus, .group select:focus, .group textarea:focus {
     background: #E0E0F8;
 }
-form-group:before, .group:after {
+.form-group:before, .group:after {
     display: table;
 }
-form-group:after {
+.form-group:after {
     clear: both;
 }
 .logo {
