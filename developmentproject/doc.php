@@ -11,7 +11,7 @@
   
  /* Destinatário e remetente - EDITAR SOMENTE ESTE BLOCO DO CÓDIGO */
  $to = "lucasxavier.consultor@gmail.com";
- $remetente = "lucasxavier.consultor@gmail.com"; // Deve ser um email válido do domínio
+ $remetente = "lucasxavier.consultor@.com"; // Deve ser um email válido do domínio
   
  /* Cabeçalho da mensagem  */
  $boundary = "XYZ-" . date("dmYis") . "-ZYX";
