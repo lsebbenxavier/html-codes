@@ -35,6 +35,26 @@
     margin-left: 20%;
     margin-right: 20%  
 }
+#nome {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+#serviço {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+#replyto {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+#mensagem {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
 .col-md-4 {
     background-color: #ffffff;
     font-family: "Times New Roman, Times, serif";
@@ -44,7 +64,7 @@
     margin-left: 20%;
     margin-right: 20%      
 }
-.form-control, input-md {
+.form-control .input-md {
     padding: 0.2em;
     border: 1px solid #429a9d;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
