@@ -23,6 +23,7 @@
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 50%;
+    margin: 2em;
     cursor: pointer;
 }
 .body{
@@ -42,6 +43,12 @@
     margin-top: 2%;
     margin-left: 20%;
     margin-right: 20%      
+}
+.form-control, input-md {
+    padding: 0.2em;
+    border: 1px solid #429a9d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block; 
 }
 .control-label {
     height: 1em;
@@ -71,9 +78,9 @@
 .form-group:after {
     clear: both;
 }
-.logo {
+#logo {
     display: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 35%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 25%;
 }
