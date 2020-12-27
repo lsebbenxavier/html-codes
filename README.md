@@ -32,7 +32,7 @@ Introduction to Vercel
 
 ​Vercel is a cloud platform for static sites and Serverless Functions that fits perfectly with your workflow. It enables developers to host Jamstack websites and web services that deploy instantly, scale automatically, and requires no supervision, all with no configuration.
 
-# form.php
+# php
 
 Hypertext Preprocessor
 
@@ -46,12 +46,3 @@ They allow us to link our documents to any other document (or other resource) we
 
 Any web content can be converted into a link, so that when clicked (or otherwise activated) it will cause the browser to go to another address (URL).
 
-# Hack
-
-HipHop Virtual Machine (HHVM)
-
-Created by Facebook. The language is open source software under the BSD license.
-
-Hack allows programmers to use static typing and dynamic typing. This type system is called gradual typing, which is also implemented in other languages like ActionScript.
-
-Hack's type system allows types to be specified for function arguments, function return values, and class properties; however, types of local variables cannot be defined.
