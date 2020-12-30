@@ -1,5 +1,5 @@
 <!-- Layout -->
-<link rel="stylesheet" href="form.html">
+<link rel="stylesheet" href="http://localhost/database_project/doc.php">
  
 <?php
   
