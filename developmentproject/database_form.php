@@ -6,8 +6,8 @@
    $serviço = $_POST['serviço'];
    $mensagem_form = $_POST['mensagem'];
    
-   $result_database_form "INSERT INTO database_form (nome, email, serviço , mensagem) VALUES (nome, email, serviço, mensagem)"
-   $resultado_mysqli_query ($conn, $result_database_form) 
+   $result_database_form = "INSERT INTO database_form (nome, email, serviço , mensagem) VALUES ('$nome', '$email', '$serviço', '$mensagem')"
+   $resultado_mysqli_query= ($conn, $result_database_form) 
 ?>
 
 
