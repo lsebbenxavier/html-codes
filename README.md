@@ -1,5 +1,8 @@
 # html-codes
-Hyper Text Markup Language - HTML serves to give meaning and organize information on websites.
+
+- Hyper Text Markup Language 
+
+HTML serves to give meaning and organize information on websites.
 
 It is possible to understand the HTML document in a very simple way, by dividing blocks of essential tags, according to the following structure:
 
@@ -12,6 +15,7 @@ It is possible to understand the HTML document in a very simple way, by dividing
 Facilitating future projects with compact and functional structures.
 
 # add-css
+
 Cascading Style Sheets is a mechanism for adding style to a web document.
 
 The CSS code can be applied directly to the tags or be contained within the <style> tags.
@@ -28,13 +32,13 @@ The matching rules for CSS are called selectors, a style definition can be match
 
 # vercel
 
-Introduction to Vercel
+- Introduction to Vercel
 
 ​Vercel is a cloud platform for static sites and Serverless Functions that fits perfectly with your workflow. It enables developers to host Jamstack websites and web services that deploy instantly, scale automatically, and requires no supervision, all with no configuration.
 
 # php
 
-Hypertext Preprocessor
+- Hypertext Preprocessor
 
 PHP is a popular general-purpose scripting language that is especially suited to web development.
 
@@ -46,3 +50,23 @@ They allow us to link our documents to any other document (or other resource) we
 
 Any web content can be converted into a link, so that when clicked (or otherwise activated) it will cause the browser to go to another address (URL).
 
+# easyPHP webserver
+
+EasyPHP Webserver turns your computer into a web server where you can host all your garage projects and see how they appear on the Internet. Although you cannot provide the same level of security for your applications as provided by professional hosting services.
+
+- SQL database service
+
+- Directory provided by the HTTP server and for saving files from your website.
+
+# SQL 
+
+- structured query language
+
+Structured query language is the standard language of so-called Relational Databases, which in turn are databases structured in the form of columns and rows, also called tuples, with their data stored in tables.
+
+Relational databases are currently the dominant solution in the market, in the same way that SQL is the standard language of this platform. It is a powerful, set-oriented technology and is the basis for manipulating relational data.
+
+1. DML: Data Manipulation Language
+2. DDL: Data Definition Language
+3. DCL: Data Control Language
+4. DTL: Data Transaction Language

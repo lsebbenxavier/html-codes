@@ -10,8 +10,8 @@
  $assunto = $_POST['assunto'];
   
  /* Destinatário e remetente - EDITAR SOMENTE ESTE BLOCO DO CÓDIGO */
- $to = "lucasxavier.consultor@gmail.com";
- $remetente = "lucasxavier.consultor@gmail.com"; // Deve ser um email válido do domínio
+ /* $to = "lucasxavier.consultor@gmail.com";
+ /* $remetente = "lucasxavier.consultor@gmail.com"; // Deve ser um email válido do domínio */
   
  /* Cabeçalho da mensagem  */
  $boundary = "XYZ-" . date("dmYis") . "-ZYX";
@@ -32,8 +32,8 @@
  <br><br>--------------------------------------------
  ";
  
- /* Função que envia a mensagem  */
- if(mail($to, $assunto, $mensagem, $headers))
+ /* Função que enviar a mensagem  */
+ if($nome, $replyto, $assunto, $mensagem)
  {
   echo "<br><br><center><b><font color='green'>Mensagem enviada com sucesso!";
  } 
