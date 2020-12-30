@@ -1,6 +1,3 @@
-<!-- Layout -->
-<link rel="stylesheet" href="http://localhost/database_project/doc.php">
- 
 <?php
   
  /* Valores recebidos do formulário  */
@@ -9,18 +6,7 @@
  $mensagem_form = $_POST['mensagem'];
  $assunto = $_POST['assunto'];
   
- /* Destinatário e remetente - EDITAR SOMENTE ESTE BLOCO DO CÓDIGO */
- /* $to = "lucasxavier.consultor@gmail.com";
- /* $remetente = "lucasxavier.consultor@gmail.com"; // Deve ser um email válido do domínio */
-  
- /* Cabeçalho da mensagem  */
- $boundary = "XYZ-" . date("dmYis") . "-ZYX";
- $headers = "MIME-Version: 1.0\n";
- $headers.= "From: $remetente\n";
- $headers.= "Reply-To: $replyto\n";
- $headers.= "Content-type: multipart/mixed; boundary=\"$boundary\"\r\n";  
- $headers.= "$boundary\n"; 
-  
+
  /* Layout da mensagem  */
  $corpo_mensagem = " 
  <br>Formulário via site
@@ -32,13 +18,4 @@
  <br><br>--------------------------------------------
  ";
  
- /* Função que enviar a mensagem  */
- if($nome, $replyto, $assunto, $mensagem)
- {
-  echo "<br><br><center><b><font color='green'>Mensagem enviada com sucesso!";
- } 
-  else
-  {
-  echo "<br><br><center><b><font color='red'>Ocorreu um erro ao enviar a mensagem!";
- }
 ?>
