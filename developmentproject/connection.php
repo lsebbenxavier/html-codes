@@ -1,6 +1,6 @@
 <?php 
     $servidor = "localhost"
-    $usuario = "root"
+    $usuario = ""
     $senha = ""; 
     $dbname = "xdesignagency_sql";
     
