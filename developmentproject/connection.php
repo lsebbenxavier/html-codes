@@ -1,5 +1,5 @@
 <?php 
-    $ervidor = "localhost"
+    $servidor = "localhost"
     $usuario = "root"
     $senha = ""; 
     $dbname = "xdesignagency_sql";
