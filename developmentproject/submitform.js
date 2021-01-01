@@ -1,8 +1,7 @@
 $(document).ready(function(){
     $('#database_form').on("submit", function(evente){
         evente.preventdefault();
-        alert("cadastrar");
-
+      
         //receber dados do formulário
         var dados = $("$database_form").serialize();
         
