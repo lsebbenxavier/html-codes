@@ -15,15 +15,16 @@
     <link rel="stylesheet" href="formcss.css">
     
     <!-- javascript -->
-    <script src="<?php echo https://xdesignagency-kr1wjk49p.vercel.app/; ?>js/submitform.js">
+    <script rel="stylesheet" src="submitform.js">
     </script>     
 </head>
 
 <body>
     <div class="container">
         <br>
-
+        <span class="msg"></span>
         <form class="form-horizontal" method="POST" action="database_form.php" enctype="multipart/form-data">
+            <input type="hidden" name="url" id="url" value="<?php echo https://xdesignagency-kr1wjk49p.vercel.app/;js/submitform.js; ?>">
             <fieldset>
 
                 <!-- Título do formulário -->
