@@ -1,7 +1,7 @@
 <?php
    include_once ('connection.php');
    $nome = $_POST['nome'];
-   $email = $_POST['e-mail']; 
+   $email = $_POST['email']; 
    $serviço = $_POST['serviço'];
    $mensagem = $_POST['mensage'];
    
