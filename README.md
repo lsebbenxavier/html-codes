@@ -71,7 +71,7 @@ Relational databases are currently the dominant solution in the market, in the s
 3. DCL: Data Control Language
 4. DTL: Data Transaction Language
 
-# javscript
+# javascript
 
 JavaScript is a structured interpreted programming language, high-level scripting with weak dynamic typing and multiparadigm. Along with HTML and CSS, JavaScript is one of the three main technologies on the World Wide Web.
 
