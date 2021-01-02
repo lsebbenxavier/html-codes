@@ -78,3 +78,15 @@ JavaScript is a structured interpreted programming language, high-level scriptin
 JS is code aggregated on a page or an external .js file that is inserted into a domain through a file upload. JS is a language created to serve the user, which means that its script is downloaded on the visitors' machine and processed there.
 
 JS is a programming language used mainly on web pages. With JS, you can display messages and other interesting information, make checks or dynamically change the visual presentation of pages, depending on the behavior you want your page (or application) to have.
+
+# wampserver 
+
+WAMP is a set derived from LAMP (L is for Linux). The only difference between them is that WAMP is used for Windows. Meanwhile, LAMP is used for Linux-based operating systems (Ubuntu, for example).
+
+- "W" is for Windows. There is also LAMP (for Linux) and MAMP (for MAC).
+
+- "A" is from Apache. Apache is a server software responsible for hosting web pages. When you make a request to access a page, Apache guarantees that same access in addition to HTTP and shows the page you want to see.
+
+- "M" is for MySQL. The function of MySQL is to be your server's database management system. It stores all relevant information about your project, such as website content, user profiles, etc.
+
+- "P" is from PHP. It is a programming language used to develop WordPress. It acts as a kind of "glue" for the entire software package. PHP runs in conjunction with Apache and communicates with MySQL.
