@@ -4,5 +4,5 @@ Web presentation page design, highlighting products / services, customer data co
 
 Code structure: html, css, php and js.
 
-Tools: vercel, easyphp webserver, database sql and wampserver.
+Tools: vercel, wampserver, database sql and HTTP server.
 

@@ -10,10 +10,6 @@ It is possible to understand the HTML document in a very simple way, by dividing
 • Head
 • Body
 
-1. The purpose of this repository is to bring together several models of html code.
-
-Facilitating future projects with compact and functional structures.
-
 # add-css
 
 Cascading Style Sheets is a mechanism for adding style to a web document.
@@ -50,13 +46,27 @@ They allow us to link our documents to any other document (or other resource) we
 
 Any web content can be converted into a link, so that when clicked (or otherwise activated) it will cause the browser to go to another address (URL).
 
-# easyPHP webserver
+# wampserver 
 
-EasyPHP Webserver turns your computer into a web server where you can host all your garage projects and see how they appear on the Internet. Although you cannot provide the same level of security for your applications as provided by professional hosting services.
+WAMP is a set derived from LAMP (L is for Linux). The only difference between them is that WAMP is used for Windows. Meanwhile, LAMP is used for Linux-based operating systems (Ubuntu, for example).
+
+- "W" is for Windows. There is also LAMP (for Linux) and MAMP (for MAC).
+
+- "A" is from Apache. Apache is a server software responsible for hosting web pages. When you make a request to access a page, Apache guarantees that same access in addition to HTTP and shows the page you want to see.
+
+- "M" is for MySQL. The function of MySQL is to be your server's database management system. It stores all relevant information about your project, such as website content, user profiles, etc.
+
+- "P" is from PHP. It is a programming language used to develop WordPress. It acts as a kind of "glue" for the entire software package. PHP runs in conjunction with Apache and communicates with MySQL.
 
 - SQL database service
 
 - Directory provided by the HTTP server and for saving files from your website.
+
+# localhost
+
+localhost refers to the location of the system being used ie the user's computer or "home".
+
+It is a loopback device that is assigned IP address 127.0.0.1 in IPv4, or :: 1 in IPv6, and can be used by TCP / IP applications to test communication with themselves.
 
 # SQL 
 
@@ -79,14 +89,3 @@ JS is code aggregated on a page or an external .js file that is inserted into a 
 
 JS is a programming language used mainly on web pages. With JS, you can display messages and other interesting information, make checks or dynamically change the visual presentation of pages, depending on the behavior you want your page (or application) to have.
 
-# wampserver 
-
-WAMP is a set derived from LAMP (L is for Linux). The only difference between them is that WAMP is used for Windows. Meanwhile, LAMP is used for Linux-based operating systems (Ubuntu, for example).
-
-- "W" is for Windows. There is also LAMP (for Linux) and MAMP (for MAC).
-
-- "A" is from Apache. Apache is a server software responsible for hosting web pages. When you make a request to access a page, Apache guarantees that same access in addition to HTTP and shows the page you want to see.
-
-- "M" is for MySQL. The function of MySQL is to be your server's database management system. It stores all relevant information about your project, such as website content, user profiles, etc.
-
-- "P" is from PHP. It is a programming language used to develop WordPress. It acts as a kind of "glue" for the entire software package. PHP runs in conjunction with Apache and communicates with MySQL.
