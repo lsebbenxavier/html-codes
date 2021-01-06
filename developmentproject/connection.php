@@ -2,7 +2,7 @@
     $servidor = "localhost";
     $usuario = "root";
     $senha = ""; 
-    $dbname = "xdesignagency_sql";
+    $dbname = "xdesignagency_qsl";
     
     $conn = mysqli_connect ($servidor, $usuario, $senha, $dbname)
 ?>
