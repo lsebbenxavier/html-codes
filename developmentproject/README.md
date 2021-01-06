@@ -64,7 +64,7 @@ WAMP is a set derived from LAMP (L is for Linux). The only difference between th
 
 # localhost
 
-localhost refers to the location of the system being used ie the user's computer or "home".
+Localhost refers to the location of the system being used ie the user's computer or "home".
 
 It is a loopback device that is assigned IP address 127.0.0.1 in IPv4, or :: 1 in IPv6, and can be used by TCP / IP applications to test communication with themselves.
 
